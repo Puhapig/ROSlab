@@ -1,4 +1,5 @@
 #include "ros/ros.h" 
+#include "live_demo/my_msg.h"
 #include "std_msgs/String.h" 
 
 int main (int argc, char **argv) 
@@ -10,18 +11,20 @@ int main (int argc, char **argv)
 	ros::NodeHandle my_handle; 
 
 	// master registry pub/sub 
-	ros::Publisher mypub_object = 	my_handle.advertise<std_msgs::String>("mypub_topic",100); 
+	ros::Publisher mypub_object = 	my_handle.advertise<live_demo::my_msg>("mypub_topic",100); 
 
 	// loop 10 Hz 
 	ros::Rate loop_rate(10); 
+
+	int counter = 0;
 
 	while (ros::ok()) 
 	{ 
 		loop_rate.sleep(); 
 
 		// refer to advertise msg type 
-		std_msgs::String mypub_msg; 
-		mypub_msg.data = "hello world"; 
+		live_demo::my_msg mypub_msg; 
+		mypub_msg.my_counter = counter++;  
 
 		mypub_object.publish(mypub_msg); 
 	} 

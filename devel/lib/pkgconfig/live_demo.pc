@@ -3,6 +3,6 @@ prefix=/home/harvey/workspace/lab01/devel
 Name: live_demo
 Description: Description of live_demo
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/harvey/workspace/lab01/devel/include
 Libs: -L/home/harvey/workspace/lab01/devel/lib 
-Requires: 
+Requires: message_runtime

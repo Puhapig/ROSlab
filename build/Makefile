@@ -241,6 +241,110 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
+# Target rules for targets named _live_demo_generate_messages_check_deps_my_msg
+
+# Build rule for target.
+_live_demo_generate_messages_check_deps_my_msg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _live_demo_generate_messages_check_deps_my_msg
+.PHONY : _live_demo_generate_messages_check_deps_my_msg
+
+# fast build rule for target.
+_live_demo_generate_messages_check_deps_my_msg/fast:
+	$(MAKE) -f live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/build.make live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/build
+.PHONY : _live_demo_generate_messages_check_deps_my_msg/fast
+
+#=============================================================================
+# Target rules for targets named live_demo_gencpp
+
+# Build rule for target.
+live_demo_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 live_demo_gencpp
+.PHONY : live_demo_gencpp
+
+# fast build rule for target.
+live_demo_gencpp/fast:
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_gencpp.dir/build.make live_demo/CMakeFiles/live_demo_gencpp.dir/build
+.PHONY : live_demo_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named live_demo_generate_messages
+
+# Build rule for target.
+live_demo_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 live_demo_generate_messages
+.PHONY : live_demo_generate_messages
+
+# fast build rule for target.
+live_demo_generate_messages/fast:
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_generate_messages.dir/build.make live_demo/CMakeFiles/live_demo_generate_messages.dir/build
+.PHONY : live_demo_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named live_demo_generate_messages_cpp
+
+# Build rule for target.
+live_demo_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 live_demo_generate_messages_cpp
+.PHONY : live_demo_generate_messages_cpp
+
+# fast build rule for target.
+live_demo_generate_messages_cpp/fast:
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/build.make live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/build
+.PHONY : live_demo_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named live_demo_generate_messages_lisp
+
+# Build rule for target.
+live_demo_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 live_demo_generate_messages_lisp
+.PHONY : live_demo_generate_messages_lisp
+
+# fast build rule for target.
+live_demo_generate_messages_lisp/fast:
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/build.make live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/build
+.PHONY : live_demo_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named live_demo_generate_messages_py
+
+# Build rule for target.
+live_demo_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 live_demo_generate_messages_py
+.PHONY : live_demo_generate_messages_py
+
+# fast build rule for target.
+live_demo_generate_messages_py/fast:
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_generate_messages_py.dir/build.make live_demo/CMakeFiles/live_demo_generate_messages_py.dir/build
+.PHONY : live_demo_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named live_demo_genlisp
+
+# Build rule for target.
+live_demo_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 live_demo_genlisp
+.PHONY : live_demo_genlisp
+
+# fast build rule for target.
+live_demo_genlisp/fast:
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_genlisp.dir/build.make live_demo/CMakeFiles/live_demo_genlisp.dir/build
+.PHONY : live_demo_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named live_demo_genpy
+
+# Build rule for target.
+live_demo_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 live_demo_genpy
+.PHONY : live_demo_genpy
+
+# fast build rule for target.
+live_demo_genpy/fast:
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_genpy.dir/build.make live_demo/CMakeFiles/live_demo_genpy.dir/build
+.PHONY : live_demo_genpy/fast
+
+#=============================================================================
 # Target rules for targets named name_of_mypub_node
 
 # Build rule for target.
@@ -252,6 +356,19 @@ name_of_mypub_node: cmake_check_build_system
 name_of_mypub_node/fast:
 	$(MAKE) -f live_demo/CMakeFiles/name_of_mypub_node.dir/build.make live_demo/CMakeFiles/name_of_mypub_node.dir/build
 .PHONY : name_of_mypub_node/fast
+
+#=============================================================================
+# Target rules for targets named name_of_mysub_node
+
+# Build rule for target.
+name_of_mysub_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 name_of_mysub_node
+.PHONY : name_of_mysub_node
+
+# fast build rule for target.
+name_of_mysub_node/fast:
+	$(MAKE) -f live_demo/CMakeFiles/name_of_mysub_node.dir/build.make live_demo/CMakeFiles/name_of_mysub_node.dir/build
+.PHONY : name_of_mysub_node/fast
 
 #=============================================================================
 # Target rules for targets named roscpp_generate_messages_cpp
@@ -390,7 +507,16 @@ help:
 	@echo "... tests"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... _live_demo_generate_messages_check_deps_my_msg"
+	@echo "... live_demo_gencpp"
+	@echo "... live_demo_generate_messages"
+	@echo "... live_demo_generate_messages_cpp"
+	@echo "... live_demo_generate_messages_lisp"
+	@echo "... live_demo_generate_messages_py"
+	@echo "... live_demo_genlisp"
+	@echo "... live_demo_genpy"
 	@echo "... name_of_mypub_node"
+	@echo "... name_of_mysub_node"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_py"

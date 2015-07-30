@@ -289,11 +289,22 @@ clean: gtest/CMakeFiles/gtest_main.dir/clean
 # Directory level rules for directory live_demo
 
 # Convenience name for "all" pass in the directory.
+live_demo/all: live_demo/CMakeFiles/live_demo_generate_messages.dir/all
 live_demo/all: live_demo/CMakeFiles/name_of_mypub_node.dir/all
+live_demo/all: live_demo/CMakeFiles/name_of_mysub_node.dir/all
 .PHONY : live_demo/all
 
 # Convenience name for "clean" pass in the directory.
+live_demo/clean: live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/clean
+live_demo/clean: live_demo/CMakeFiles/live_demo_gencpp.dir/clean
+live_demo/clean: live_demo/CMakeFiles/live_demo_generate_messages.dir/clean
+live_demo/clean: live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/clean
+live_demo/clean: live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/clean
+live_demo/clean: live_demo/CMakeFiles/live_demo_generate_messages_py.dir/clean
+live_demo/clean: live_demo/CMakeFiles/live_demo_genlisp.dir/clean
+live_demo/clean: live_demo/CMakeFiles/live_demo_genpy.dir/clean
 live_demo/clean: live_demo/CMakeFiles/name_of_mypub_node.dir/clean
+live_demo/clean: live_demo/CMakeFiles/name_of_mysub_node.dir/clean
 live_demo/clean: live_demo/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 live_demo/clean: live_demo/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 live_demo/clean: live_demo/CMakeFiles/roscpp_generate_messages_py.dir/clean
@@ -310,21 +321,278 @@ live_demo/preinstall:
 .PHONY : live_demo/preinstall
 
 #=============================================================================
+# Target rules for target live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir
+
+# All Build rule for target.
+live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/all:
+	$(MAKE) -f live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/build.make live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/depend
+	$(MAKE) -f live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/build.make live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harvey/workspace/lab01/build/CMakeFiles 
+	@echo "Built target _live_demo_generate_messages_check_deps_my_msg"
+.PHONY : live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/all
+
+# Build rule for subdir invocation for target.
+live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/harvey/workspace/lab01/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/harvey/workspace/lab01/build/CMakeFiles 0
+.PHONY : live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/rule
+
+# Convenience name for target.
+_live_demo_generate_messages_check_deps_my_msg: live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/rule
+.PHONY : _live_demo_generate_messages_check_deps_my_msg
+
+# clean rule for target.
+live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/clean:
+	$(MAKE) -f live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/build.make live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/clean
+.PHONY : live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/clean
+
+# clean rule for target.
+clean: live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target live_demo/CMakeFiles/live_demo_gencpp.dir
+
+# All Build rule for target.
+live_demo/CMakeFiles/live_demo_gencpp.dir/all: live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/all
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_gencpp.dir/build.make live_demo/CMakeFiles/live_demo_gencpp.dir/depend
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_gencpp.dir/build.make live_demo/CMakeFiles/live_demo_gencpp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harvey/workspace/lab01/build/CMakeFiles 
+	@echo "Built target live_demo_gencpp"
+.PHONY : live_demo/CMakeFiles/live_demo_gencpp.dir/all
+
+# Build rule for subdir invocation for target.
+live_demo/CMakeFiles/live_demo_gencpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/harvey/workspace/lab01/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 live_demo/CMakeFiles/live_demo_gencpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/harvey/workspace/lab01/build/CMakeFiles 0
+.PHONY : live_demo/CMakeFiles/live_demo_gencpp.dir/rule
+
+# Convenience name for target.
+live_demo_gencpp: live_demo/CMakeFiles/live_demo_gencpp.dir/rule
+.PHONY : live_demo_gencpp
+
+# clean rule for target.
+live_demo/CMakeFiles/live_demo_gencpp.dir/clean:
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_gencpp.dir/build.make live_demo/CMakeFiles/live_demo_gencpp.dir/clean
+.PHONY : live_demo/CMakeFiles/live_demo_gencpp.dir/clean
+
+# clean rule for target.
+clean: live_demo/CMakeFiles/live_demo_gencpp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target live_demo/CMakeFiles/live_demo_generate_messages.dir
+
+# All Build rule for target.
+live_demo/CMakeFiles/live_demo_generate_messages.dir/all: live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/all
+live_demo/CMakeFiles/live_demo_generate_messages.dir/all: live_demo/CMakeFiles/live_demo_generate_messages_py.dir/all
+live_demo/CMakeFiles/live_demo_generate_messages.dir/all: live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/all
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_generate_messages.dir/build.make live_demo/CMakeFiles/live_demo_generate_messages.dir/depend
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_generate_messages.dir/build.make live_demo/CMakeFiles/live_demo_generate_messages.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harvey/workspace/lab01/build/CMakeFiles 
+	@echo "Built target live_demo_generate_messages"
+.PHONY : live_demo/CMakeFiles/live_demo_generate_messages.dir/all
+
+# Include target in all.
+all: live_demo/CMakeFiles/live_demo_generate_messages.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+live_demo/CMakeFiles/live_demo_generate_messages.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/harvey/workspace/lab01/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 live_demo/CMakeFiles/live_demo_generate_messages.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/harvey/workspace/lab01/build/CMakeFiles 0
+.PHONY : live_demo/CMakeFiles/live_demo_generate_messages.dir/rule
+
+# Convenience name for target.
+live_demo_generate_messages: live_demo/CMakeFiles/live_demo_generate_messages.dir/rule
+.PHONY : live_demo_generate_messages
+
+# clean rule for target.
+live_demo/CMakeFiles/live_demo_generate_messages.dir/clean:
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_generate_messages.dir/build.make live_demo/CMakeFiles/live_demo_generate_messages.dir/clean
+.PHONY : live_demo/CMakeFiles/live_demo_generate_messages.dir/clean
+
+# clean rule for target.
+clean: live_demo/CMakeFiles/live_demo_generate_messages.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir
+
+# All Build rule for target.
+live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/all: live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/all
+live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/all: live_demo/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/build.make live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/depend
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/build.make live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harvey/workspace/lab01/build/CMakeFiles  3
+	@echo "Built target live_demo_generate_messages_cpp"
+.PHONY : live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/harvey/workspace/lab01/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/harvey/workspace/lab01/build/CMakeFiles 0
+.PHONY : live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+live_demo_generate_messages_cpp: live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/rule
+.PHONY : live_demo_generate_messages_cpp
+
+# clean rule for target.
+live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/clean:
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/build.make live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/clean
+.PHONY : live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir
+
+# All Build rule for target.
+live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/all: live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/all
+live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/all: live_demo/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/build.make live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/depend
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/build.make live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harvey/workspace/lab01/build/CMakeFiles  4
+	@echo "Built target live_demo_generate_messages_lisp"
+.PHONY : live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/harvey/workspace/lab01/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/harvey/workspace/lab01/build/CMakeFiles 0
+.PHONY : live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+live_demo_generate_messages_lisp: live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/rule
+.PHONY : live_demo_generate_messages_lisp
+
+# clean rule for target.
+live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/clean:
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/build.make live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/clean
+.PHONY : live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target live_demo/CMakeFiles/live_demo_generate_messages_py.dir
+
+# All Build rule for target.
+live_demo/CMakeFiles/live_demo_generate_messages_py.dir/all: live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/all
+live_demo/CMakeFiles/live_demo_generate_messages_py.dir/all: live_demo/CMakeFiles/std_msgs_generate_messages_py.dir/all
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_generate_messages_py.dir/build.make live_demo/CMakeFiles/live_demo_generate_messages_py.dir/depend
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_generate_messages_py.dir/build.make live_demo/CMakeFiles/live_demo_generate_messages_py.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harvey/workspace/lab01/build/CMakeFiles  5 6
+	@echo "Built target live_demo_generate_messages_py"
+.PHONY : live_demo/CMakeFiles/live_demo_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+live_demo/CMakeFiles/live_demo_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/harvey/workspace/lab01/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 live_demo/CMakeFiles/live_demo_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/harvey/workspace/lab01/build/CMakeFiles 0
+.PHONY : live_demo/CMakeFiles/live_demo_generate_messages_py.dir/rule
+
+# Convenience name for target.
+live_demo_generate_messages_py: live_demo/CMakeFiles/live_demo_generate_messages_py.dir/rule
+.PHONY : live_demo_generate_messages_py
+
+# clean rule for target.
+live_demo/CMakeFiles/live_demo_generate_messages_py.dir/clean:
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_generate_messages_py.dir/build.make live_demo/CMakeFiles/live_demo_generate_messages_py.dir/clean
+.PHONY : live_demo/CMakeFiles/live_demo_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: live_demo/CMakeFiles/live_demo_generate_messages_py.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target live_demo/CMakeFiles/live_demo_genlisp.dir
+
+# All Build rule for target.
+live_demo/CMakeFiles/live_demo_genlisp.dir/all: live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/all
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_genlisp.dir/build.make live_demo/CMakeFiles/live_demo_genlisp.dir/depend
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_genlisp.dir/build.make live_demo/CMakeFiles/live_demo_genlisp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harvey/workspace/lab01/build/CMakeFiles 
+	@echo "Built target live_demo_genlisp"
+.PHONY : live_demo/CMakeFiles/live_demo_genlisp.dir/all
+
+# Build rule for subdir invocation for target.
+live_demo/CMakeFiles/live_demo_genlisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/harvey/workspace/lab01/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 live_demo/CMakeFiles/live_demo_genlisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/harvey/workspace/lab01/build/CMakeFiles 0
+.PHONY : live_demo/CMakeFiles/live_demo_genlisp.dir/rule
+
+# Convenience name for target.
+live_demo_genlisp: live_demo/CMakeFiles/live_demo_genlisp.dir/rule
+.PHONY : live_demo_genlisp
+
+# clean rule for target.
+live_demo/CMakeFiles/live_demo_genlisp.dir/clean:
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_genlisp.dir/build.make live_demo/CMakeFiles/live_demo_genlisp.dir/clean
+.PHONY : live_demo/CMakeFiles/live_demo_genlisp.dir/clean
+
+# clean rule for target.
+clean: live_demo/CMakeFiles/live_demo_genlisp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target live_demo/CMakeFiles/live_demo_genpy.dir
+
+# All Build rule for target.
+live_demo/CMakeFiles/live_demo_genpy.dir/all: live_demo/CMakeFiles/live_demo_generate_messages_py.dir/all
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_genpy.dir/build.make live_demo/CMakeFiles/live_demo_genpy.dir/depend
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_genpy.dir/build.make live_demo/CMakeFiles/live_demo_genpy.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harvey/workspace/lab01/build/CMakeFiles 
+	@echo "Built target live_demo_genpy"
+.PHONY : live_demo/CMakeFiles/live_demo_genpy.dir/all
+
+# Build rule for subdir invocation for target.
+live_demo/CMakeFiles/live_demo_genpy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/harvey/workspace/lab01/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 live_demo/CMakeFiles/live_demo_genpy.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/harvey/workspace/lab01/build/CMakeFiles 0
+.PHONY : live_demo/CMakeFiles/live_demo_genpy.dir/rule
+
+# Convenience name for target.
+live_demo_genpy: live_demo/CMakeFiles/live_demo_genpy.dir/rule
+.PHONY : live_demo_genpy
+
+# clean rule for target.
+live_demo/CMakeFiles/live_demo_genpy.dir/clean:
+	$(MAKE) -f live_demo/CMakeFiles/live_demo_genpy.dir/build.make live_demo/CMakeFiles/live_demo_genpy.dir/clean
+.PHONY : live_demo/CMakeFiles/live_demo_genpy.dir/clean
+
+# clean rule for target.
+clean: live_demo/CMakeFiles/live_demo_genpy.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target live_demo/CMakeFiles/name_of_mypub_node.dir
 
 # All Build rule for target.
 live_demo/CMakeFiles/name_of_mypub_node.dir/all: live_demo/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 live_demo/CMakeFiles/name_of_mypub_node.dir/all: live_demo/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 live_demo/CMakeFiles/name_of_mypub_node.dir/all: live_demo/CMakeFiles/roscpp_generate_messages_py.dir/all
+live_demo/CMakeFiles/name_of_mypub_node.dir/all: live_demo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 live_demo/CMakeFiles/name_of_mypub_node.dir/all: live_demo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 live_demo/CMakeFiles/name_of_mypub_node.dir/all: live_demo/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 live_demo/CMakeFiles/name_of_mypub_node.dir/all: live_demo/CMakeFiles/std_msgs_generate_messages_py.dir/all
 live_demo/CMakeFiles/name_of_mypub_node.dir/all: live_demo/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-live_demo/CMakeFiles/name_of_mypub_node.dir/all: live_demo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 live_demo/CMakeFiles/name_of_mypub_node.dir/all: live_demo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f live_demo/CMakeFiles/name_of_mypub_node.dir/build.make live_demo/CMakeFiles/name_of_mypub_node.dir/depend
 	$(MAKE) -f live_demo/CMakeFiles/name_of_mypub_node.dir/build.make live_demo/CMakeFiles/name_of_mypub_node.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/harvey/workspace/lab01/build/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harvey/workspace/lab01/build/CMakeFiles  7
 	@echo "Built target name_of_mypub_node"
 .PHONY : live_demo/CMakeFiles/name_of_mypub_node.dir/all
 
@@ -350,6 +618,49 @@ live_demo/CMakeFiles/name_of_mypub_node.dir/clean:
 
 # clean rule for target.
 clean: live_demo/CMakeFiles/name_of_mypub_node.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target live_demo/CMakeFiles/name_of_mysub_node.dir
+
+# All Build rule for target.
+live_demo/CMakeFiles/name_of_mysub_node.dir/all: live_demo/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+live_demo/CMakeFiles/name_of_mysub_node.dir/all: live_demo/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+live_demo/CMakeFiles/name_of_mysub_node.dir/all: live_demo/CMakeFiles/roscpp_generate_messages_py.dir/all
+live_demo/CMakeFiles/name_of_mysub_node.dir/all: live_demo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+live_demo/CMakeFiles/name_of_mysub_node.dir/all: live_demo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+live_demo/CMakeFiles/name_of_mysub_node.dir/all: live_demo/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+live_demo/CMakeFiles/name_of_mysub_node.dir/all: live_demo/CMakeFiles/std_msgs_generate_messages_py.dir/all
+live_demo/CMakeFiles/name_of_mysub_node.dir/all: live_demo/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+live_demo/CMakeFiles/name_of_mysub_node.dir/all: live_demo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f live_demo/CMakeFiles/name_of_mysub_node.dir/build.make live_demo/CMakeFiles/name_of_mysub_node.dir/depend
+	$(MAKE) -f live_demo/CMakeFiles/name_of_mysub_node.dir/build.make live_demo/CMakeFiles/name_of_mysub_node.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harvey/workspace/lab01/build/CMakeFiles  8
+	@echo "Built target name_of_mysub_node"
+.PHONY : live_demo/CMakeFiles/name_of_mysub_node.dir/all
+
+# Include target in all.
+all: live_demo/CMakeFiles/name_of_mysub_node.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+live_demo/CMakeFiles/name_of_mysub_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/harvey/workspace/lab01/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 live_demo/CMakeFiles/name_of_mysub_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/harvey/workspace/lab01/build/CMakeFiles 0
+.PHONY : live_demo/CMakeFiles/name_of_mysub_node.dir/rule
+
+# Convenience name for target.
+name_of_mysub_node: live_demo/CMakeFiles/name_of_mysub_node.dir/rule
+.PHONY : name_of_mysub_node
+
+# clean rule for target.
+live_demo/CMakeFiles/name_of_mysub_node.dir/clean:
+	$(MAKE) -f live_demo/CMakeFiles/name_of_mysub_node.dir/build.make live_demo/CMakeFiles/name_of_mysub_node.dir/clean
+.PHONY : live_demo/CMakeFiles/name_of_mysub_node.dir/clean
+
+# clean rule for target.
+clean: live_demo/CMakeFiles/name_of_mysub_node.dir/clean
 .PHONY : clean
 
 #=============================================================================

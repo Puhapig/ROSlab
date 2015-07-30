@@ -9,6 +9,8 @@
 /home/harvey/workspace/lab01/src/live_demo/src/mypub.cpp
 ros/ros.h
 /home/harvey/workspace/lab01/src/live_demo/src/ros/ros.h
+live_demo/my_msg.h
+/home/harvey/workspace/lab01/src/live_demo/src/live_demo/my_msg.h
 std_msgs/String.h
 /home/harvey/workspace/lab01/src/live_demo/src/std_msgs/String.h
 

@@ -150,6 +150,118 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/rule:
+	cd /home/harvey/workspace/lab01/build && $(MAKE) -f CMakeFiles/Makefile2 live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/rule
+.PHONY : live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/rule
+
+# Convenience name for target.
+_live_demo_generate_messages_check_deps_my_msg: live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/rule
+.PHONY : _live_demo_generate_messages_check_deps_my_msg
+
+# fast build rule for target.
+_live_demo_generate_messages_check_deps_my_msg/fast:
+	cd /home/harvey/workspace/lab01/build && $(MAKE) -f live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/build.make live_demo/CMakeFiles/_live_demo_generate_messages_check_deps_my_msg.dir/build
+.PHONY : _live_demo_generate_messages_check_deps_my_msg/fast
+
+# Convenience name for target.
+live_demo/CMakeFiles/live_demo_gencpp.dir/rule:
+	cd /home/harvey/workspace/lab01/build && $(MAKE) -f CMakeFiles/Makefile2 live_demo/CMakeFiles/live_demo_gencpp.dir/rule
+.PHONY : live_demo/CMakeFiles/live_demo_gencpp.dir/rule
+
+# Convenience name for target.
+live_demo_gencpp: live_demo/CMakeFiles/live_demo_gencpp.dir/rule
+.PHONY : live_demo_gencpp
+
+# fast build rule for target.
+live_demo_gencpp/fast:
+	cd /home/harvey/workspace/lab01/build && $(MAKE) -f live_demo/CMakeFiles/live_demo_gencpp.dir/build.make live_demo/CMakeFiles/live_demo_gencpp.dir/build
+.PHONY : live_demo_gencpp/fast
+
+# Convenience name for target.
+live_demo/CMakeFiles/live_demo_generate_messages.dir/rule:
+	cd /home/harvey/workspace/lab01/build && $(MAKE) -f CMakeFiles/Makefile2 live_demo/CMakeFiles/live_demo_generate_messages.dir/rule
+.PHONY : live_demo/CMakeFiles/live_demo_generate_messages.dir/rule
+
+# Convenience name for target.
+live_demo_generate_messages: live_demo/CMakeFiles/live_demo_generate_messages.dir/rule
+.PHONY : live_demo_generate_messages
+
+# fast build rule for target.
+live_demo_generate_messages/fast:
+	cd /home/harvey/workspace/lab01/build && $(MAKE) -f live_demo/CMakeFiles/live_demo_generate_messages.dir/build.make live_demo/CMakeFiles/live_demo_generate_messages.dir/build
+.PHONY : live_demo_generate_messages/fast
+
+# Convenience name for target.
+live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/rule:
+	cd /home/harvey/workspace/lab01/build && $(MAKE) -f CMakeFiles/Makefile2 live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/rule
+.PHONY : live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+live_demo_generate_messages_cpp: live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/rule
+.PHONY : live_demo_generate_messages_cpp
+
+# fast build rule for target.
+live_demo_generate_messages_cpp/fast:
+	cd /home/harvey/workspace/lab01/build && $(MAKE) -f live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/build.make live_demo/CMakeFiles/live_demo_generate_messages_cpp.dir/build
+.PHONY : live_demo_generate_messages_cpp/fast
+
+# Convenience name for target.
+live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/rule:
+	cd /home/harvey/workspace/lab01/build && $(MAKE) -f CMakeFiles/Makefile2 live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/rule
+.PHONY : live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+live_demo_generate_messages_lisp: live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/rule
+.PHONY : live_demo_generate_messages_lisp
+
+# fast build rule for target.
+live_demo_generate_messages_lisp/fast:
+	cd /home/harvey/workspace/lab01/build && $(MAKE) -f live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/build.make live_demo/CMakeFiles/live_demo_generate_messages_lisp.dir/build
+.PHONY : live_demo_generate_messages_lisp/fast
+
+# Convenience name for target.
+live_demo/CMakeFiles/live_demo_generate_messages_py.dir/rule:
+	cd /home/harvey/workspace/lab01/build && $(MAKE) -f CMakeFiles/Makefile2 live_demo/CMakeFiles/live_demo_generate_messages_py.dir/rule
+.PHONY : live_demo/CMakeFiles/live_demo_generate_messages_py.dir/rule
+
+# Convenience name for target.
+live_demo_generate_messages_py: live_demo/CMakeFiles/live_demo_generate_messages_py.dir/rule
+.PHONY : live_demo_generate_messages_py
+
+# fast build rule for target.
+live_demo_generate_messages_py/fast:
+	cd /home/harvey/workspace/lab01/build && $(MAKE) -f live_demo/CMakeFiles/live_demo_generate_messages_py.dir/build.make live_demo/CMakeFiles/live_demo_generate_messages_py.dir/build
+.PHONY : live_demo_generate_messages_py/fast
+
+# Convenience name for target.
+live_demo/CMakeFiles/live_demo_genlisp.dir/rule:
+	cd /home/harvey/workspace/lab01/build && $(MAKE) -f CMakeFiles/Makefile2 live_demo/CMakeFiles/live_demo_genlisp.dir/rule
+.PHONY : live_demo/CMakeFiles/live_demo_genlisp.dir/rule
+
+# Convenience name for target.
+live_demo_genlisp: live_demo/CMakeFiles/live_demo_genlisp.dir/rule
+.PHONY : live_demo_genlisp
+
+# fast build rule for target.
+live_demo_genlisp/fast:
+	cd /home/harvey/workspace/lab01/build && $(MAKE) -f live_demo/CMakeFiles/live_demo_genlisp.dir/build.make live_demo/CMakeFiles/live_demo_genlisp.dir/build
+.PHONY : live_demo_genlisp/fast
+
+# Convenience name for target.
+live_demo/CMakeFiles/live_demo_genpy.dir/rule:
+	cd /home/harvey/workspace/lab01/build && $(MAKE) -f CMakeFiles/Makefile2 live_demo/CMakeFiles/live_demo_genpy.dir/rule
+.PHONY : live_demo/CMakeFiles/live_demo_genpy.dir/rule
+
+# Convenience name for target.
+live_demo_genpy: live_demo/CMakeFiles/live_demo_genpy.dir/rule
+.PHONY : live_demo_genpy
+
+# fast build rule for target.
+live_demo_genpy/fast:
+	cd /home/harvey/workspace/lab01/build && $(MAKE) -f live_demo/CMakeFiles/live_demo_genpy.dir/build.make live_demo/CMakeFiles/live_demo_genpy.dir/build
+.PHONY : live_demo_genpy/fast
+
+# Convenience name for target.
 live_demo/CMakeFiles/name_of_mypub_node.dir/rule:
 	cd /home/harvey/workspace/lab01/build && $(MAKE) -f CMakeFiles/Makefile2 live_demo/CMakeFiles/name_of_mypub_node.dir/rule
 .PHONY : live_demo/CMakeFiles/name_of_mypub_node.dir/rule
@@ -162,6 +274,20 @@ name_of_mypub_node: live_demo/CMakeFiles/name_of_mypub_node.dir/rule
 name_of_mypub_node/fast:
 	cd /home/harvey/workspace/lab01/build && $(MAKE) -f live_demo/CMakeFiles/name_of_mypub_node.dir/build.make live_demo/CMakeFiles/name_of_mypub_node.dir/build
 .PHONY : name_of_mypub_node/fast
+
+# Convenience name for target.
+live_demo/CMakeFiles/name_of_mysub_node.dir/rule:
+	cd /home/harvey/workspace/lab01/build && $(MAKE) -f CMakeFiles/Makefile2 live_demo/CMakeFiles/name_of_mysub_node.dir/rule
+.PHONY : live_demo/CMakeFiles/name_of_mysub_node.dir/rule
+
+# Convenience name for target.
+name_of_mysub_node: live_demo/CMakeFiles/name_of_mysub_node.dir/rule
+.PHONY : name_of_mysub_node
+
+# fast build rule for target.
+name_of_mysub_node/fast:
+	cd /home/harvey/workspace/lab01/build && $(MAKE) -f live_demo/CMakeFiles/name_of_mysub_node.dir/build.make live_demo/CMakeFiles/name_of_mysub_node.dir/build
+.PHONY : name_of_mysub_node/fast
 
 # Convenience name for target.
 live_demo/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
@@ -313,18 +439,51 @@ src/mypub.cpp.s:
 	cd /home/harvey/workspace/lab01/build && $(MAKE) -f live_demo/CMakeFiles/name_of_mypub_node.dir/build.make live_demo/CMakeFiles/name_of_mypub_node.dir/src/mypub.cpp.s
 .PHONY : src/mypub.cpp.s
 
+src/mysub.o: src/mysub.cpp.o
+.PHONY : src/mysub.o
+
+# target to build an object file
+src/mysub.cpp.o:
+	cd /home/harvey/workspace/lab01/build && $(MAKE) -f live_demo/CMakeFiles/name_of_mysub_node.dir/build.make live_demo/CMakeFiles/name_of_mysub_node.dir/src/mysub.cpp.o
+.PHONY : src/mysub.cpp.o
+
+src/mysub.i: src/mysub.cpp.i
+.PHONY : src/mysub.i
+
+# target to preprocess a source file
+src/mysub.cpp.i:
+	cd /home/harvey/workspace/lab01/build && $(MAKE) -f live_demo/CMakeFiles/name_of_mysub_node.dir/build.make live_demo/CMakeFiles/name_of_mysub_node.dir/src/mysub.cpp.i
+.PHONY : src/mysub.cpp.i
+
+src/mysub.s: src/mysub.cpp.s
+.PHONY : src/mysub.s
+
+# target to generate assembly for a file
+src/mysub.cpp.s:
+	cd /home/harvey/workspace/lab01/build && $(MAKE) -f live_demo/CMakeFiles/name_of_mysub_node.dir/build.make live_demo/CMakeFiles/name_of_mysub_node.dir/src/mysub.cpp.s
+.PHONY : src/mysub.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... _live_demo_generate_messages_check_deps_my_msg"
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
+	@echo "... live_demo_gencpp"
+	@echo "... live_demo_generate_messages"
+	@echo "... live_demo_generate_messages_cpp"
+	@echo "... live_demo_generate_messages_lisp"
+	@echo "... live_demo_generate_messages_py"
+	@echo "... live_demo_genlisp"
+	@echo "... live_demo_genpy"
 	@echo "... name_of_mypub_node"
+	@echo "... name_of_mysub_node"
 	@echo "... rebuild_cache"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_lisp"
@@ -339,6 +498,9 @@ help:
 	@echo "... src/mypub.o"
 	@echo "... src/mypub.i"
 	@echo "... src/mypub.s"
+	@echo "... src/mysub.o"
+	@echo "... src/mysub.i"
+	@echo "... src/mysub.s"
 .PHONY : help
 
 
