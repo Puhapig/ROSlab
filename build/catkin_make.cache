@@ -1,0 +1,2 @@
+live_demo
+-DCATKIN_DEVEL_PREFIX=/home/harvey/workspace/lab01/devel -DCMAKE_INSTALL_PREFIX=/home/harvey/workspace/lab01/install -G Unix Makefiles
